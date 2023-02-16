@@ -15,13 +15,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
   background: var(--body-bg-color);
   background-size: 200% 300%;
 }
 
 main {
   margin: 15rem auto;
+  height: 100%;
 }
 
 .perfil {
