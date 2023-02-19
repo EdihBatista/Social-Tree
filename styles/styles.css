@@ -1,37 +1,37 @@
 :root {
   --body-bg-color: linear-gradient(
     150deg,
-    #560b60,
-    #470f83,
-    #0a5ca9,
-    #8278f2e3
+    #1e3896,
+    #250844,
+    #110413,
+    #6c6b78e3
   );
-  --green: #26fd00;
+  --green: #00ff2f;
   --White: #ffffff;
-  --bg-botao-links: linear-gradient(80deg, #9900f8, #7105ed, #a900e1);
+  --bg-botao-links: linear-gradient(80deg, #6908f0df, #1825b4, #6100e8);
 }
 
 body {
   display: flex;
-  align-items: center;
   justify-content: center;
-  height: 100vh;
+  align-items: center;
   background: var(--body-bg-color);
-  background-size: 300% 150%;
+  background-size: 200% 300%;
 }
 
-.perfil,
-.botoes {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+main {
+  margin: 15rem auto;
+  height: 100%;
 }
 
 .perfil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
   font-family: "Poppins", sans-serif;
   color: var(--green);
   font-size: 1.1em;
-  text-align: center;
   text-decoration: none;
 }
 
@@ -44,13 +44,14 @@ body {
   margin-bottom: 1.3em;
 }
 
-.nome__perfil {
+.insta__color {
   color: var(--White);
 }
 
 .botoes {
+  display: flex;
+  flex-direction: column;
   margin-top: 2.5em;
-  text-align: center;
 }
 
 .botoes li {
@@ -58,6 +59,7 @@ body {
   border-radius: 4px;
   padding: 1em 9em;
   margin-bottom: 1em;
+  text-align: center;
   cursor: pointer;
   background: var(--bg-botao-links);
   background-size: 180%;
@@ -72,14 +74,14 @@ body {
   text-transform: uppercase;
 }
 
-.icons__sociais ul {
+.icons__sociais {
   display: flex;
   justify-content: center;
   gap: 2rem;
   margin: 3em auto;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
   .perfil img {
     width: 180px;
     height: 180px;
