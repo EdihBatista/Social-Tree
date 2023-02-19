@@ -8,7 +8,7 @@
   );
   --green: #26fd00;
   --White: #ffffff;
-  --bg-botao-links: linear-gradient(80deg, #9900f8, #7105ed, #a900e1);
+  --bg-botao-links: linear-gradient(80deg, #9900f8, #7105ed, #b006e9);
 }
 
 body {
